@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/styles.css">
+    <link rel="icon" href="../img/huellitas.png" type="image.png">
+    <title>historia clinica</title>
+</head>
+<body>
+     <!--Header-->
+    <header>
+        <div class="container-fluid bg-success text-center">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img src="../img/huellitas.png" class="img-fluid" height="150" width="150">
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+        <!--nav-->
+
+            <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navegación</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="./veterinario.html">Principal
+            <span class="visually-hidden">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./pacientes.html">Pacientes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./citas_vet.html">Visor de citas</a>
+        </li>
+        
+    
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+        <section>
+            <div class="container-fluid text-center">
+                <div class="row">
+                    <div class="col-12 text-primary">
+                        <h1 class="display-3 fw-bold">Historia clinica</h1>
+                        <p class="fs-4 fw-bold text-primary">Mira o crea la historia clinica de este paciente</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-4 mb-3 text-center">
+                <div class="row">
+                    <div class="col-lg-12">
+                            <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" >
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Nombre del dueño</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" >
+</div>
+<label for="exampleFormControlInput1" class="form-label">Sexo</label>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+  <label class="form-check-label" for="checkDefault">
+    Masculino
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="checkChecked" checked>
+  <label class="form-check-label" for="checkChecked">
+    Femenino
+  </label>
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Observaciones de la historia clinica</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  crear / actualizar historia clinica
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Historia clinica creada con exito</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Puedes cerrar esta ventana
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">ok</button>
+      </div>
+    </div>
+  </div>
+</div>
+                                </div>
+                    </div>
+
+                
+            </div>
+        </section>
+
+        <footer>
+      <div class="container-fluid bg-success py-5">
+        <div class="row">
+          <div class="col-lg-6 text-right fw-bold text-light">
+            &copy;miguel
+          </div>
+          <div class="col-lg-6  align-items-left">
+
+          </div>
+        </div>
+      </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>       
+</body>
+</html>
