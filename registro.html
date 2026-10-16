@@ -8,6 +8,10 @@
     <link rel="icon" href="./img/huellitas.png" type="image.png">
     <title>Registrar</title>
 </head>
+
+
+<!--RF 01 Registro de cliente-->
+
 <body class="d-flex flex-column min-vh-100">
      <!--Header-->
     <header>
@@ -26,94 +30,127 @@
         <div class="container text-center py-2 my-2 flex-grow-1">
             <div class="row">
                 <div class="col-lg-12">
-                        <h1 class="display-3 fw-bold">registro</h1>
+                        <h1 class="display-3 fw-bold shadow border border-2 rounded">registro</h1>
                         <img src="./img/usuario.webp" class="img-fluid" height="100" width="100">
                         <p class="fs-4 fw-bold text-primary">Ingresa tus datos para poder registrarte</p>
                 </div>
             </div>
         </div>
 
-            <div class="container text-center border border-dark border-2 rounded p-4">
+            <div class="container text-center border border-dark border-2 rounded p-4 shadow mb-3 p-3">
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="fs-4 fw-bold text-primary">Datos personales</p>
-                     <div class="mb-3 row ">
-                            <label for="staticEmail" class="col-sm-2 col-form-label text-primary">Nombre</label>
-                                <div class="col-sm-10">
-                                    <input class="form-control" type="text" placeholder="Nonbre" aria-label="correo@gmail.com">
-                                </div>
-                        </div>
-
-                          <div class="mb-3 row ">
-                            <label for="staticEmail" class="col-sm-2 col-form-label text-primary">Correo</label>
-                                <div class="col-sm-10">
-                                    <input class="form-control" type="text" placeholder="correo@gmail.com" aria-label="correo@gmail.com">
-                                </div>
-                        </div>
-                        <div class="mb-3 row">
-                            <label for="inputPassword" class="col-sm-2 col-form-label text-primary">Contraseña</label>
-                        <div class="col-sm-10">
-                            <input type="password" class="form-control" id="inputPassword" placeholder="********">
-                         </div>
-
-                         <p class="fs-4 fw-bold text-primary">Datos de la mascota</p>
-
-                            <div class="mb-3 row ">
-                            <label for="staticEmail" class="col-sm-2 col-form-label text-primary">Nombre de la mascota</label>
-                                <div class="col-sm-10">
-                                    <input class="form-control" type="text" placeholder="Nombre" aria-label="correo@gmail.com">
-                                </div>
-                        </div>
-
-                         <div class="mb-3 row ">
-                            <label for="staticEmail" class="col-sm-2 col-form-label text-primary">Especie</label>
-                                <div class="col-sm-10">
-                                    <input class="form-control" type="text" placeholder="Especie" aria-label="correo@gmail.com">
+                    <p class="fs-4 fw-bold text-primary shadow-sm border border-2 rounded">Datos personales</p>
+                    <div class="mb-3 row ">
+                            <label for="staticEmail" class="col-sm-2 col-form-label text-primary shadow-lg border border-2 rounded">Nombre</label>
+                                <div class="col-sm-10 shadow  border border-2 rounded">
+                                    <div class="form-floating mb-3">
+                                     <input type="email" class="form-control border border-2 rounded mt-2" id="floatingInput" placeholder="name@example.com">
+                                      <label for="floatingInput">Nombre</label>
+                                    </div>
                                 </div>
                         </div>
 
                         <div class="mb-3 row ">
-                            <label for="staticEmail" class="col-sm-2 col-form-label text-primary">Raza</label>
-                                <div class="col-sm-10">
-                                    <input class="form-control" type="text" placeholder="Raza" aria-label="correo@gmail.com">
+                            <label for="staticEmail" class="col-sm-2 col-form-label text-primary shadow-lg border border-2 rounded">Cedula</label>
+                                <div class="col-sm-10 shadow border border-2 rounded">
+                                    <div class="form-floating mb-3">
+                                     <input type="email" class="form-control border border-2 rounded mt-2" id="floatingInput" placeholder="name@example.com">
+                                      <label for="floatingInput">CC:</label>
+                                    </div>
                                 </div>
                         </div>
 
+                        <div class="mb-3 row ">
+                            <label for="staticEmail" class="col-sm-2 col-form-label text-primary shadow-lg border border-2 rounded">Numero de celular</label>
+                                <div class="col-sm-10 shadow border border-2 rounded">
+                                    <div class="form-floating mb-3">
+                                     <input type="email" class="form-control border border-2 rounded mt-2" id="floatingInput" placeholder="name@example.com">
+                                      <label for="floatingInput">Numero</label>
+                                    </div>
+                                </div>
+                        </div>
 
-                            <label for="staticEmail" class="col-sm-2 col-form-label text-primary text-left">Sexo</label>
+                          <div class="mb-3 row ">
+                            <label for="staticEmail" class="col-sm-2 col-form-label text-primary shadow-lg border border-2 rounded">Correo</label>
+                                <div class="col-sm-10 shadow border border-2 rounded">
+                                    <div class="form-floating mb-3">
+                                     <input type="email" class="form-control border border-2 rounded mt-2" id="floatingInput" placeholder="name@example.com">
+                                      <label for="floatingInput">Correo</label>
+                                    </div>
+                                </div>
+                        </div>
 
-                            <div class="form-check">
-                                <input class="form-check-input border border-dark border-1" type="checkbox" value="" id="checkDefault">
-                                 <label class="form-check-label" for="checkDefault">
-                                    Masculino
-                                </label>
+                        <div class="mb-3 row">
+                            <label for="inputPassword" class="col-sm-2 col-form-label text-primary shadow-lg border border-2 rounded">Contraseña</label>
+                        <div class="col-sm-10 shadow border border-2 rounded py-2">
+                            <input type="password" class="form-control border border-2 rounded mt-2" id="inputPassword" placeholder="********">
+                         </div>
+
+                         </div>
+
+                         <!--DATOS DE LA MASCOTA-->
+
+                         <p class="fs-4 fw-bold text-primary shadow-sm border border-2 rounded">Datos de la mascota</p>
+
+                            <div class="mb-3 row ">
+                            <label for="staticEmail" class="col-sm-2 col-form-label text-primary shadow-lg border border-2 rounded">Nombre</label>
+                                <div class="col-sm-10 shadow border border-2 rounded">
+                                    <div class="form-floating mb-3">
+                                     <input type="email" class="form-control border border-2 rounded mt-2" id="floatingInput" placeholder="name@example.com">
+                                      <label for="floatingInput">Nombre</label>
+                                    </div>
+                                </div>
+                        </div>
+
+                         <div class="mb-3 row ">
+                            <label for="staticEmail" class="col-sm-2 col-form-label text-primary shadow-lg border border-2 rounded">Especie</label>
+                                <div class="col-sm-10 shadow border border-2 rounded">
+                                    <div class="form-floating mb-3">
+                                     <input type="email" class="form-control border border-2 rounded mt-2" id="floatingInput" placeholder="name@example.com">
+                                      <label for="floatingInput">Especie</label>
+                                    </div>
+                                </div>
+                        </div>
+
+                        <div class="mb-3 row ">
+                            <label for="staticEmail" class="col-sm-2 col-form-label text-primary shadow-lg border border-2 rounded">Raza</label>
+                                <div class="col-sm-10 shadow border border-2 rounded">
+                                    <div class="form-floating mb-3">
+                                     <input type="email" class="form-control border border-2 rounded mt-2" id="floatingInput" placeholder="name@example.com">
+                                      <label for="floatingInput">Raza</label>
+                                    </div>
+                                </div>
+                        </div>
+
+                            <div class="mb-3 row ">
+                                    <label for="staticEmail" class="col-sm-2 col-form-label text-primary shadow-lg border border-2 rounded">Sexo</label>
+                            <select class="form-select shadow border border-2 rounded" aria-label="Default select example">
+                                    <option value="1" class="fw-bold">Masculino</option>
+                                    <option value="2" class="fw-bold">Femenino</option>
+                            </select>
                             </div>
-                            <div class="form-check">
-                                 <input class="form-check-input border border-dark border-1" type="checkbox" value="" id="checkChecked" checked>
-                                <label class="form-check-label text-left" for="checkChecked">
-                                Femenino
-                                </label>
-                            </div>
+
 
                              <div class="form-check">
                                  <input class="form-check-input border border-dark border-1" type="checkbox" value="" id="checkChecked" checked>
-                                <label class="form-check-label text-left" for="checkChecked">
+                                <label class="form-check-label text-left fw-bold" for="checkChecked">
                                 Esterilizado
                                 </label>
                             </div>
                             
                             <div class="form-check">
                                  <input class="form-check-input border border-dark border-1" type="checkbox" value="" id="checkChecked" checked>
-                                <label class="form-check-label text-left" for="checkChecked">
+                                <label class="form-check-label text-left fw-bold" for="checkChecked">
                                 Vacunado
                                 </label>
                             </div>
                          
                             <a class="mt-4 text-link" href="./politica.html"> Acepto politica de datos</a>
                         
-                    </div>
+                    
                     <div class="text-center mt-4">
-                            <a href="#" class="btn btn-warning text-light w-100">Registrar</a>
+                            <a href="./sesion.html" class="btn btn-warning text-light w-100 shadow-lg border-1 rounded">Registrar</a>
                         </div>
                 </div>
             </div>
